@@ -50,7 +50,6 @@ struct ContentView: View {
                     NavigationLink(destination: NoahView()) {
                         Text("Augustus Caesar")
                     }
-                    Text("Augustus Caesar")
                 }
                 
             }
