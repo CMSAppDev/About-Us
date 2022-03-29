@@ -142,7 +142,7 @@ struct DanielView: View {
                             .foregroundColor(.gray)
                     }
                     
-                    Image("portrait")
+                    Image("daniel-portrait")
                         .resizable()
                         .frame(width: 100, height: 100)
                         .cornerRadius(10)
@@ -159,18 +159,18 @@ struct DanielView: View {
                 Text("links")
                     .modifier(TitleModifier(fontSize: 26))
                 
-                CardView(image: Image("instagram"), title: "instagram", description: "@thed4nm4n", year: nil, url: "https://instagram.com/thed4nm4n")
+                CardView(image: Image("daniel-instagram"), title: "instagram", description: "@thed4nm4n", year: nil, url: "https://instagram.com/thed4nm4n")
                 
-                CardView(image: Image("twitter"), title: "twitter", description: "@the_d4n_m4n", year: nil, url: "https://twitter.com/the_d4n_m4n")
+                CardView(image: Image("daniel-twitter"), title: "twitter", description: "@the_d4n_m4n", year: nil, url: "https://twitter.com/the_d4n_m4n")
                 
                 Button(action: copyDiscordToClipboard) {
-                CardView(image: Image("discord"), title: "discord", description: "D4n#2719", year: nil, url: nil)
+                CardView(image: Image("daniel-discord"), title: "discord", description: "D4n#2719", year: nil, url: nil)
                 }
                 .popover(isPresented: $isShowingPopover) {
                     Text("copied to clipboard!")
                 }
                 
-                CardView(image: Image("youtube"), title: "youtube", description: "Daniel Poe", year: nil, url: "https://www.youtube.com/channel/UCgVgxSEy4pOR7LFT6nPexOg")
+                CardView(image: Image("daniel-youtube"), title: "youtube", description: "Daniel Poe", year: nil, url: "https://www.youtube.com/channel/UCgVgxSEy4pOR7LFT6nPexOg")
             }
         }
     }
