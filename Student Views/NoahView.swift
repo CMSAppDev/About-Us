@@ -8,16 +8,13 @@
 import SwiftUI
 
 struct NoahView: View {
-    @State var onInit = false
     @State var opacity = 0.0
-    init(){
-        
-        
-    }
+    
     var body: some View {
         VStack{
             
             Spacer()
+        
             Text("Noah M").padding()
             Text("Im a programmer and game developer, I also like making blender animations. I love learning new things and exploring new opportunities.").padding()
             Text("This is in the Noah View").padding()
@@ -28,6 +25,8 @@ struct NoahView: View {
                 }
             }.padding()
             Image("debian")
+                .resizable()
+                .scaledToFit()
                 .opacity(opacity)
             Text("Im sorry... Debian is just better.")
                 .opacity(opacity)
