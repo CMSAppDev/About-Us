@@ -9,8 +9,7 @@ import SwiftUI
 
 struct DanielView: View {
     var body: some View {
-        Text("NO Daniel")
-        Text("no")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
