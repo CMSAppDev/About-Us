@@ -47,7 +47,7 @@ struct ContentView: View {
                     NavigationLink(destination: EllaView()) {
                         Text("Ella")
                     }
-                    NavigationLink(destination: NoahView()) {
+                    NavigationLink(destination: LehmanView()) {
                         Text("Augustus Caesar")
                     }
                 }

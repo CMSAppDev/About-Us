@@ -72,7 +72,7 @@ struct RowanView: View {
                 .frame(width: 700, height: 150)
                 .cornerRadius(.infinity)
                 
-                VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "RowanVideo", withExtension: ".MOV")!))
+                VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "RowanVideo", withExtension: ".mp4")!))
                     .frame(width: 800, height: 450)
                 
                 ZStack {

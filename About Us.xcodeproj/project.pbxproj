@@ -26,6 +26,10 @@
 		8A290FA427EE0BEC00171F05 /* AllisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290FA327EE0BEC00171F05 /* AllisonView.swift */; };
 		8A290FA627EE0BF400171F05 /* AustinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290FA527EE0BF400171F05 /* AustinView.swift */; };
 		8A290FA827EE0BFD00171F05 /* EllaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290FA727EE0BFD00171F05 /* EllaView.swift */; };
+		8AECD0C227F7544D00687CBD /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8AECD0BE27F7544D00687CBD /* 2.m4a */; };
+		8AECD0C327F7544D00687CBD /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8AECD0BF27F7544D00687CBD /* 1.m4a */; };
+		8AECD0C427F7544D00687CBD /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8AECD0C027F7544D00687CBD /* 3.m4a */; };
+		8AECD0C527F7544D00687CBD /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8AECD0C127F7544D00687CBD /* 4.m4a */; };
 		8AF3494427F2042700831AB4 /* LehmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3494327F2042700831AB4 /* LehmanView.swift */; };
 		AA7F158127F74C0D005575A6 /* bruh sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */; };
 		AAD7CC3527F606010097C338 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = AAD7CC3427F606010097C338 /* Subsonic */; };
@@ -71,6 +75,10 @@
 		8A290FA327EE0BEC00171F05 /* AllisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllisonView.swift; sourceTree = "<group>"; };
 		8A290FA527EE0BF400171F05 /* AustinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinView.swift; sourceTree = "<group>"; };
 		8A290FA727EE0BFD00171F05 /* EllaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllaView.swift; sourceTree = "<group>"; };
+		8AECD0BE27F7544D00687CBD /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2.m4a; path = "Student Views/Lehman Sounds/2.m4a"; sourceTree = "<group>"; };
+		8AECD0BF27F7544D00687CBD /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.m4a; path = "Student Views/Lehman Sounds/1.m4a"; sourceTree = "<group>"; };
+		8AECD0C027F7544D00687CBD /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 3.m4a; path = "Student Views/Lehman Sounds/3.m4a"; sourceTree = "<group>"; };
+		8AECD0C127F7544D00687CBD /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4.m4a; path = "Student Views/Lehman Sounds/4.m4a"; sourceTree = "<group>"; };
 		8AF3494327F2042700831AB4 /* LehmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LehmanView.swift; sourceTree = "<group>"; };
 		AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bruh sound effect.mp3"; path = "Student Views/bruh sound effect.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +112,10 @@
 		8A290F5C27EE05CC00171F05 = {
 			isa = PBXGroup;
 			children = (
+				8AECD0BF27F7544D00687CBD /* 1.m4a */,
+				8AECD0BE27F7544D00687CBD /* 2.m4a */,
+				8AECD0C027F7544D00687CBD /* 3.m4a */,
+				8AECD0C127F7544D00687CBD /* 4.m4a */,
 				88A049E027F74EE700203269 /* RowanVideo.mp4 */,
 				AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */,
 				8A290F9227EE0B5200171F05 /* Student Views */,
@@ -175,7 +187,6 @@
 				8A290FA527EE0BF400171F05 /* AustinView.swift */,
 				8A290FA727EE0BFD00171F05 /* EllaView.swift */,
 				8AF3494327F2042700831AB4 /* LehmanView.swift */,
-				88A049DE27F74DFE00203269 /* RowanVideo.mp4 */,
 			);
 			path = "Student Views";
 			sourceTree = "<group>";
@@ -290,9 +301,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AECD0C327F7544D00687CBD /* 1.m4a in Resources */,
+				8AECD0C527F7544D00687CBD /* 4.m4a in Resources */,
+				8AECD0C227F7544D00687CBD /* 2.m4a in Resources */,
 				88A049E127F74EE700203269 /* RowanVideo.mp4 in Resources */,
 				AA7F158127F74C0D005575A6 /* bruh sound effect.mp3 in Resources */,
 				8A290F7027EE05CE00171F05 /* Preview Assets.xcassets in Resources */,
+				8AECD0C427F7544D00687CBD /* 3.m4a in Resources */,
 				8A290F6D27EE05CE00171F05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
