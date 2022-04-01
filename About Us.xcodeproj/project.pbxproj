@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		885E1AF127F608BC0013C094 /* RowanVideo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 885E1AF027F608BC0013C094 /* RowanVideo.MOV */; };
+		88A049E127F74EE700203269 /* RowanVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88A049E027F74EE700203269 /* RowanVideo.mp4 */; };
 		8A290F6927EE05CC00171F05 /* About_UsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290F6827EE05CC00171F05 /* About_UsApp.swift */; };
 		8A290F6B27EE05CC00171F05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290F6A27EE05CC00171F05 /* ContentView.swift */; };
 		8A290F6D27EE05CE00171F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A290F6C27EE05CE00171F05 /* Assets.xcassets */; };
@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		885E1AF027F608BC0013C094 /* RowanVideo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = RowanVideo.MOV; path = ../../../Desktop/RowanVideo.MOV; sourceTree = "<group>"; };
+		88A049E027F74EE700203269 /* RowanVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RowanVideo.mp4; sourceTree = "<group>"; };
 		8A290F6527EE05CC00171F05 /* About Us.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "About Us.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A290F6827EE05CC00171F05 /* About_UsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_UsApp.swift; sourceTree = "<group>"; };
 		8A290F6A27EE05CC00171F05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +100,7 @@
 		8A290F5C27EE05CC00171F05 = {
 			isa = PBXGroup;
 			children = (
+				88A049E027F74EE700203269 /* RowanVideo.mp4 */,
 				8A290F9227EE0B5200171F05 /* Student Views */,
 				8A290F6727EE05CC00171F05 /* About Us */,
 				8A290F7827EE05CE00171F05 /* About UsTests */,
@@ -169,7 +170,6 @@
 				8A290FA527EE0BF400171F05 /* AustinView.swift */,
 				8A290FA727EE0BFD00171F05 /* EllaView.swift */,
 				8AF3494327F2042700831AB4 /* LehmanView.swift */,
-				885E1AF027F608BC0013C094 /* RowanVideo.MOV */,
 			);
 			path = "Student Views";
 			sourceTree = "<group>";
@@ -278,8 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A049E127F74EE700203269 /* RowanVideo.mp4 in Resources */,
 				8A290F7027EE05CE00171F05 /* Preview Assets.xcassets in Resources */,
-				885E1AF127F608BC0013C094 /* RowanVideo.MOV in Resources */,
 				8A290F6D27EE05CE00171F05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
