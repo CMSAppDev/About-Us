@@ -9,12 +9,15 @@ import SwiftUI
 
 struct AlexanderView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct AlexanderView_Previews: PreviewProvider {
-    static var previews: some View {
-        AlexanderView()
+        Text("Im, Tired")
+            VStack{
+                Color.red
+      }
+     }
+    
+    struct AlexanderView_Previews: PreviewProvider {
+        static var previews: some View {
+            AlexanderView()
+        }
     }
 }
