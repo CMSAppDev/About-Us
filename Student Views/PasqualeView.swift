@@ -16,9 +16,13 @@ struct PasqualeView: View {
         Text("Some other things about me that are not sport-related are that I am mostly of Italian descent, as my Grandfather was born there in the mid-60's. I am passionate about a lot of things, such as music, gaming, and meeting people. I am VERY much a people person, so don't be afraid to come up to me and say hi, I'm a nice person when I'm not angry, I promise.")
       
         Image("me")
-     
+            .resizable()
+            .scaledToFit()
         Image("lax 2019")
-      
+            .resizable()
+            .scaledToFit()
         Image("lax 2022")
+            .resizable()
+            .scaledToFit()
     }
 }
