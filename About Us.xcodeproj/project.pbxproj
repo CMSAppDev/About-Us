@@ -26,7 +26,7 @@
 		8A290FA627EE0BF400171F05 /* AustinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290FA527EE0BF400171F05 /* AustinView.swift */; };
 		8A290FA827EE0BFD00171F05 /* EllaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290FA727EE0BFD00171F05 /* EllaView.swift */; };
 		8AF3494427F2042700831AB4 /* LehmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3494327F2042700831AB4 /* LehmanView.swift */; };
-		AAD7CC3227F6054F0097C338 /* bruh sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAD7CC3127F6054E0097C338 /* bruh sound effect.mp3 */; };
+		AA7F158127F74C0D005575A6 /* bruh sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */; };
 		AAD7CC3527F606010097C338 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = AAD7CC3427F606010097C338 /* Subsonic */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +70,7 @@
 		8A290FA527EE0BF400171F05 /* AustinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinView.swift; sourceTree = "<group>"; };
 		8A290FA727EE0BFD00171F05 /* EllaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllaView.swift; sourceTree = "<group>"; };
 		8AF3494327F2042700831AB4 /* LehmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LehmanView.swift; sourceTree = "<group>"; };
-		AAD7CC3127F6054E0097C338 /* bruh sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bruh sound effect.mp3"; path = "../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/bruh sound effect.mp3"; sourceTree = "<group>"; };
+		AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bruh sound effect.mp3"; path = "Student Views/bruh sound effect.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,7 @@
 		8A290F5C27EE05CC00171F05 = {
 			isa = PBXGroup;
 			children = (
+				AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */,
 				8A290F9227EE0B5200171F05 /* Student Views */,
 				8A290F6727EE05CC00171F05 /* About Us */,
 				8A290F7827EE05CE00171F05 /* About UsTests */,
@@ -167,7 +168,6 @@
 				8A290F9D27EE0BB900171F05 /* NoahView.swift */,
 				8A290F9F27EE0BD200171F05 /* DanielView.swift */,
 				8A290FA127EE0BE000171F05 /* DarcyView.swift */,
-				AAD7CC3127F6054E0097C338 /* bruh sound effect.mp3 */,
 				8A290FA327EE0BEC00171F05 /* AllisonView.swift */,
 				8A290FA527EE0BF400171F05 /* AustinView.swift */,
 				8A290FA727EE0BFD00171F05 /* EllaView.swift */,
@@ -286,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAD7CC3227F6054F0097C338 /* bruh sound effect.mp3 in Resources */,
+				AA7F158127F74C0D005575A6 /* bruh sound effect.mp3 in Resources */,
 				8A290F7027EE05CE00171F05 /* Preview Assets.xcassets in Resources */,
 				8A290F6D27EE05CE00171F05 /* Assets.xcassets in Resources */,
 			);
