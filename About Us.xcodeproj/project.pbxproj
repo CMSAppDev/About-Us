@@ -27,6 +27,8 @@
 		8A290FA627EE0BF400171F05 /* AustinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290FA527EE0BF400171F05 /* AustinView.swift */; };
 		8A290FA827EE0BFD00171F05 /* EllaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A290FA727EE0BFD00171F05 /* EllaView.swift */; };
 		8AF3494427F2042700831AB4 /* LehmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3494327F2042700831AB4 /* LehmanView.swift */; };
+		AA7F158127F74C0D005575A6 /* bruh sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */; };
+		AAD7CC3527F606010097C338 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = AAD7CC3427F606010097C338 /* Subsonic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,7 @@
 		8A290FA527EE0BF400171F05 /* AustinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinView.swift; sourceTree = "<group>"; };
 		8A290FA727EE0BFD00171F05 /* EllaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllaView.swift; sourceTree = "<group>"; };
 		8AF3494327F2042700831AB4 /* LehmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LehmanView.swift; sourceTree = "<group>"; };
+		AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bruh sound effect.mp3"; path = "Student Views/bruh sound effect.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD7CC3527F606010097C338 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				88A049E027F74EE700203269 /* RowanVideo.mp4 */,
+				AA7F158027F74C0D005575A6 /* bruh sound effect.mp3 */,
 				8A290F9227EE0B5200171F05 /* Student Views */,
 				8A290F6727EE05CC00171F05 /* About Us */,
 				8A290F7827EE05CE00171F05 /* About UsTests */,
@@ -191,6 +196,9 @@
 			dependencies = (
 			);
 			name = "About Us";
+			packageProductDependencies = (
+				AAD7CC3427F606010097C338 /* Subsonic */,
+			);
 			productName = "About Us";
 			productReference = 8A290F6527EE05CC00171F05 /* About Us.app */;
 			productType = "com.apple.product-type.application";
@@ -263,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 8A290F5C27EE05CC00171F05;
+			packageReferences = (
+				AAD7CC3327F606010097C338 /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
 			productRefGroup = 8A290F6627EE05CC00171F05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -280,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A049E127F74EE700203269 /* RowanVideo.mp4 in Resources */,
+				AA7F158127F74C0D005575A6 /* bruh sound effect.mp3 in Resources */,
 				8A290F7027EE05CE00171F05 /* Preview Assets.xcassets in Resources */,
 				8A290F6D27EE05CE00171F05 /* Assets.xcassets in Resources */,
 			);
@@ -646,6 +658,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAD7CC3327F606010097C338 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAD7CC3427F606010097C338 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD7CC3327F606010097C338 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A290F5D27EE05CC00171F05 /* Project object */;
 }

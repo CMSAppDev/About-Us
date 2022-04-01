@@ -6,11 +6,23 @@
 //
 
 import SwiftUI
+import Subsonic
 
 struct DarcyView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Button {
+                play(sound: "bruh sound effect.mp3")
+            }  label:  {
+                Image("swagAlert")
+                    .resizable()
+                    .scaledToFit()
+                    .padding(.horizontal)
+                }
+                
+        Text("what was i supposed to do here")
     }
+}
 }
 
 struct DarcyView_Previews: PreviewProvider {
